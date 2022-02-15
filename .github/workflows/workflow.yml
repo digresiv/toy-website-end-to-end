@@ -11,7 +11,7 @@ jobs:
 
   # Build the application and database.
   build:
-    uses: ./.github/workflows/build
+    uses: digresiv/toy-website-end-to-end/.github/workflows/build.yml@main
 
   # Lint the Bicep file.
   lint:
